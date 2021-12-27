@@ -8,6 +8,7 @@ module.exports = (client) => {
         let res = await tenorGifApi('hello cute');
         const message = `Chào mừng <@${member.id}> đã đến với server HNF🥰, nhớ đọc ${member.guild.channels.cache.get(channelRule)} trước khi vào server nha`
         const channel = member.guild.channels.cache.get(channelID)
+        // channel.send(message)
         channel.send(message + '\n' + res)
 
     })

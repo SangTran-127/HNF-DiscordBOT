@@ -58,7 +58,7 @@ module.exports = async function (message, args, command) {
             return message.channel.send(`👉 **${song.title}** đã được thêm vào danh sách phát!`)
         }
     } else if (command === 'skip') {
-        console.log('hello');
+
         skipSong(message, serverQueue);
     } else if (command === 'stop') {
         stopSong(message, serverQueue);

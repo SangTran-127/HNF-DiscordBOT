@@ -19,7 +19,7 @@ client.on('ready', () => {
 
 client.on('message', commandHandle)
 client.on('message', (message) => {
-    const badWords = ['dm', 'cc', 'dmm', 'dcm', 'dkm', 'con cac', 'loz', 'lồn'];
+    const badWords = ['dm', 'cc', 'dmm', 'dcm', 'dkm', 'con cac', 'loz', 'lồn', 'lol'];
     const greeting = ['xin chào', 'hello', 'hi', 'hi mn', 'hello mn', 'hello mọi người', 'hi mọi người']
     const sadReactions = ['sad', 'hic', 'huhu', 'hjc', 'hix', 'hjx', 'buồn']
     mess = message.content;
